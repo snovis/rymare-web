@@ -7,13 +7,13 @@
   <meta name="description" content="Rymare International LLC provides business consulting and custom software development services to help organizations streamline operations and scale effectively.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav>
-      <div class="logo">Rymare International</div>
+      <div class="logo">Rymare<span>International</span></div>
       <ul>
         <li><a href="#services">Services</a></li>
         <li><a href="#about">About</a></li>
@@ -24,22 +24,29 @@
 
   <main>
     <section class="hero">
-      <h1>Business Consulting &<br>Software Development</h1>
-      <p>We help organizations streamline operations and build the tools they need to scale.</p>
+      <div class="hero-content">
+        <p class="hero-tag">Business Consulting & Software Development</p>
+        <h1>We build the systems that<br>keep your promises.</h1>
+        <p class="hero-sub">Operational clarity, custom tools, and real solutions for businesses that are ready to scale.</p>
+        <a href="#contact" class="btn btn-hero">Get in Touch</a>
+      </div>
     </section>
 
     <section id="services" class="services">
-      <h2>Services</h2>
+      <h2>What We Do</h2>
       <div class="card-grid">
         <div class="card">
+          <div class="card-icon">&#9670;</div>
           <h3>Business Consulting</h3>
           <p>Operational strategy, process improvement, and management systems designed to bring clarity and accountability to growing businesses.</p>
         </div>
         <div class="card">
+          <div class="card-icon">&#9672;</div>
           <h3>Software Development</h3>
           <p>Custom web applications, internal tools, and data dashboards built to solve real operational problems — not generic off-the-shelf solutions.</p>
         </div>
         <div class="card">
+          <div class="card-icon">&#9678;</div>
           <h3>Systems Integration</h3>
           <p>Connecting the tools your team already uses into cohesive workflows that reduce manual work and improve visibility.</p>
         </div>
@@ -47,15 +54,20 @@
     </section>
 
     <section id="about" class="about">
-      <h2>About Rymare International</h2>
-      <p>Rymare International LLC is a consulting firm specializing in business operations and custom software development. We work with business owners and operators who need practical solutions — not slide decks. Our approach starts with understanding your operations end-to-end, then building the systems and tools that make your team more effective.</p>
+      <div class="about-inner">
+        <h2>About Rymare International</h2>
+        <p>Rymare International LLC is a consulting firm specializing in business operations and custom software development. We work with business owners and operators who need practical solutions — not slide decks.</p>
+        <p>Our approach starts with understanding your operations end-to-end, then building the systems and tools that make your team more effective.</p>
+      </div>
     </section>
 
     <section id="contact" class="contact">
       <h2>Get in Touch</h2>
       <p>Interested in working together? Reach out and let's start a conversation.</p>
-      <a href="mailto:scott@rymare.com" class="btn">scott@rymare.com</a>
-      <a href="tel:+14802691141" class="btn btn-secondary">(480) 269-1141</a>
+      <div class="contact-buttons">
+        <a href="mailto:scott@rymare.com" class="btn">scott@rymare.com</a>
+        <a href="tel:+14802691141" class="btn btn-secondary">(480) 269-1141</a>
+      </div>
     </section>
   </main>
 
