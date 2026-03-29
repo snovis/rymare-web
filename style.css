@@ -84,9 +84,7 @@ nav a:hover {
 .hero {
   background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-dark-mid) 50%, var(--color-accent) 100%);
   padding: 7rem 2rem 6rem;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-  width: 100vw;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
